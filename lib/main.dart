@@ -11,8 +11,7 @@ void main() {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg'),
+            image: AssetImage('images/diamond.png'),
           ),
         ),
       ),
